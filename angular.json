@@ -32,9 +32,12 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootswatch/dist/flatly/bootstrap.min.css",
+              "node_modules/animate.css/animate.min.css"
             ],
-            "scripts": []
+            "scripts": [
+            ]
           },
           "configurations": {
             "production": {
@@ -98,5 +101,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
