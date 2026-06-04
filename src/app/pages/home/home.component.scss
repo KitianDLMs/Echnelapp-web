@@ -124,3 +124,54 @@ swiper-slide img {
     transform: translateY(-8px);
   }
 }
+
+.plans {
+  padding: 100px 60px;
+  background: #ffffff;
+
+  h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 60px;
+  }
+}
+
+.plan-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.plan-card {
+  background: white;
+  border-radius: 15px;
+  padding: 35px;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+
+  transition: all 0.3s ease;
+
+  text-align: center;
+}
+
+.plan-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.plan-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.plan-card h4 {
+  color: #18bc9c;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.plan-card p {
+  color: #666;
+  line-height: 1.7;
+}
