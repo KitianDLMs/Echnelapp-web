@@ -7,6 +7,15 @@
   // font-weight: 600;
 }
 
+.navbar-brand {
+  color: white !important;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: white !important;
+}
+
 .navbar-logo {  
   width: 100px;
   object-fit: contain;
