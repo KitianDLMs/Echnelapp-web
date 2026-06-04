@@ -11,3 +11,17 @@
   width: 100px;
   object-fit: contain;
 }
+
+.navbar .nav-link {
+  color: #bdbdbd !important; /* gris */
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #ffffff !important;
+}
+
+.navbar .nav-link.active {
+  color: #ffffff !important; /* blanco cuando está seleccionada */
+  font-weight: 600;
+}
