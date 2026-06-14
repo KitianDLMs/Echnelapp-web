@@ -8,6 +8,7 @@ import { RespaldoInformacionComponent } from "./pages/blog/articles/respaldo-inf
 import { MantenimientoPcComponent } from "./pages/blog/articles/mantenimiento-pc/mantenimiento-pc.component";
 import { CamarasSeguridadComponent } from "./pages/blog/articles/camaras-seguridad/camaras-seguridad.component";
 import { TransformacionDigitalComponent } from "./pages/blog/articles/transformacion-digital/transformacion-digital.component";
+import { SecurityPlansComponent } from "./pages/security-plans/security-plans.component";
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -15,7 +16,7 @@ export const routes: Routes = [
   { path: 'nosotros', component: AboutComponent },
   { path: 'blog', component: BlogComponent },
   { path: 'contacto', component: ContactComponent },
-
+  { path: 'seguridad', component: SecurityPlansComponent },
   { path: 'respaldo-informacion', component: RespaldoInformacionComponent },
   { path: 'mantenimiento-pc', component: MantenimientoPcComponent },
   { path: 'camaras-seguridad', component: CamarasSeguridadComponent },

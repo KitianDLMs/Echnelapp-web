@@ -1,0 +1,35 @@
+.card {
+  border: none;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  color: black;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 60px;
+
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 25px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+    color: #555;
+  }
+}
