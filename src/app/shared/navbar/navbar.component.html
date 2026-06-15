@@ -28,17 +28,45 @@
           </a>
         </li>
 
-        <li class="nav-item">
-          <a class="nav-link"
-             routerLink="/servicios"
-             routerLinkActive="active">
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href=""
+            role="button"
+            data-bs-toggle="dropdown">
+
             Servicios
+
           </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/seguridad" routerLinkActive="active">
-            Cámaras de Seguridad
-          </a>
+
+          <ul class="dropdown-menu">
+
+            <li>
+              <a
+                class="dropdown-item"
+                routerLink="/desarrollo-software">
+                Desarrollo de Software
+              </a>
+            </li>
+
+            <li>
+              <a
+                class="dropdown-item"
+                routerLink="/soporte-ti">
+                Soporte TI
+              </a>
+            </li>
+
+            <li>
+              <a
+                class="dropdown-item"
+                routerLink="/seguridad">
+                Cámaras de Seguridad
+              </a>
+            </li>
+
+          </ul>
+
         </li>
         <li class="nav-item">
           <a class="nav-link"

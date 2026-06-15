@@ -9,6 +9,8 @@ import { MantenimientoPcComponent } from "./pages/blog/articles/mantenimiento-pc
 import { CamarasSeguridadComponent } from "./pages/blog/articles/camaras-seguridad/camaras-seguridad.component";
 import { TransformacionDigitalComponent } from "./pages/blog/articles/transformacion-digital/transformacion-digital.component";
 import { SecurityPlansComponent } from "./pages/security-plans/security-plans.component";
+import { SoporteTiComponent } from "./pages/soporte-ti/soporte-ti.component";
+import { DesarrolloSoftwareComponent } from "./pages/desarrollo-software/desarrollo-software.component";
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -20,5 +22,7 @@ export const routes: Routes = [
   { path: 'respaldo-informacion', component: RespaldoInformacionComponent },
   { path: 'mantenimiento-pc', component: MantenimientoPcComponent },
   { path: 'camaras-seguridad', component: CamarasSeguridadComponent },
-  { path: 'transformacion-digital', component: TransformacionDigitalComponent }
+  { path: 'transformacion-digital', component: TransformacionDigitalComponent },
+  { path: 'soporte-ti', component: SoporteTiComponent },
+  { path: 'desarrollo-software', component: DesarrolloSoftwareComponent }
 ];

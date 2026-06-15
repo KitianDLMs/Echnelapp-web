@@ -1,0 +1,20 @@
+.card {
+  border: none;
+  transition: .3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  color: black;
+}
+
+.btn-success {
+  width: 100%;
+}
