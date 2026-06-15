@@ -1,6 +1,6 @@
 .card {
   border: none;
-  transition: 0.3s;
+  transition: .3s;
 }
 
 .card:hover {
@@ -15,21 +15,47 @@ h2 {
   color: black;
 }
 
-.header {
-  text-align: center;
-  margin-bottom: 60px;
+.btn-success {
+  width: 100%;
+}
 
-  h1 {
-    font-size: 4rem;
-    margin-bottom: 25px;
-    font-weight: 700;
-  }
+.card-body h4 {
+  min-height: 50px;
+  font-weight: 600;
+}
 
-  p {
-    font-size: 1.2rem;
-    max-width: 800px;
-    margin: 0 auto;
-    line-height: 1.8;
-    color: #555;
-  }
+.card-body ul {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.card-body li {
+  margin-bottom: 8px;
+}
+
+.table {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
+}
+
+.table thead {
+  background-color: #212529;
+  color: white;
+}
+
+.cta-section {
+  margin-top: 60px;
+}
+
+.cta-section .btn {
+  max-width: 350px;
+}
+
+.lead {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.table-responsive {
+  border-radius: 10px;
+  overflow: hidden;
 }
