@@ -30,3 +30,13 @@
   color: #ffffff !important; /* blanco cuando está seleccionada */
   font-weight: 600;
 }
+
+.navbar-logo {
+  width: 100px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover .navbar-logo {
+  transform: translateY(-5px);
+}

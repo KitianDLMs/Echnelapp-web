@@ -33,3 +33,30 @@
 .footer {
   padding: 40px 80px;
 }
+
+.footer {
+  position: relative;
+  overflow: hidden;
+  padding: 40px 80px;
+}
+
+.footer-watermark {
+  color: rgba(255,255,255,0.02);
+}
+
+.footer:hover .footer-watermark {
+  color: white;
+}
+
+.footer-brand img {
+  width: 140px;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  cursor: pointer;
+}
+
+.footer-brand img:hover {
+  transform: translateY(-5px);
+  filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.3));
+}
