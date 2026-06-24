@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { AfterViewInit, Component } from '@angular/core';
+import * as AOS from "aos";
 
 @Component({
   selector: 'app-footer',
@@ -7,6 +8,14 @@ import { Component } from '@angular/core';
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.scss'
 })
-export class FooterComponent {
+export class FooterComponent implements AfterViewInit {
 
+  ngAfterViewInit() {
+    AOS.init({
+      duration: 1000,
+      once: false
+    });
+
+    AOS.refresh();
+  }
 }

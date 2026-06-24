@@ -73,3 +73,20 @@
 .card:hover {
   transform: translateY(-8px);
 }
+
+.card button {
+  padding: 10px 22px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #fff;
+  color: #111;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.card button:hover {
+  background: #111;
+  color: #fff;
+  border-color: #111;
+}

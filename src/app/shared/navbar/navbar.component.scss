@@ -40,3 +40,19 @@
 .navbar-brand:hover .navbar-logo {
   transform: translateY(-5px);
 }
+
+body.dark-theme {
+  background: #121212;
+  color: white;
+}
+
+body.dark-theme .card,
+body.dark-theme .plan-card {
+  background: #1e1e1e;
+  color: white;
+}
+
+body.dark-theme .navbar,
+body.dark-theme .footer {
+  background: #1b1b1b !important;
+}

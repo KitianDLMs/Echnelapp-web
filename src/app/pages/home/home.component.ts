@@ -1,5 +1,6 @@
-import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core' ;
+import { AfterViewInit, Component, CUSTOM_ELEMENTS_SCHEMA, OnInit } from '@angular/core' ;
 import { RouterModule } from '@angular/router';
+import * as AOS from "aos";
 
 @Component({
   selector: 'app-home',
@@ -9,6 +10,13 @@ import { RouterModule } from '@angular/router';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent {
+export class HomeComponent implements AfterViewInit {
+  ngAfterViewInit() {
+    AOS.init({
+      duration: 1000,
+      once: false
+    });
 
+    AOS.refresh();
+  }
 }

@@ -10,7 +10,18 @@ import { RouterModule } from '@angular/router';
 })
 export class NavbarComponent {
 
+  isDark = true;
   menuOpen = false;
+
+  toggleTheme() {
+    this.isDark = !this.isDark;
+
+    if (this.isDark) {
+      document.body.classList.add('dark-theme');
+    } else {
+      document.body.classList.remove('dark-theme');
+    }
+  }
 
   toggleMenu() {
     console.log();    
